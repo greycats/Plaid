@@ -13,8 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LinkKit",
-            url: "https://github.com/greycats/Plaid-LinkKit/raw/2.3.1/LinkKit.xcframework.zip",
-            checksum: "5e81f93e0498dd9d6570c335a4abafb4d793f739e0c033718ed062e80e206819"
+            path: "LinkKit.xcframework"
         )
     ]
 )
